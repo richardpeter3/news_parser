@@ -1,0 +1,16 @@
+My first attempt at using GIT...
+
+Matt - I realise I probably didn't comment enough I will go back and comment for you amigo.
+
+THe general gist is that there are several types of object:
+
+DatabaseAdministrator: A class to make talking to my Local Database easier
+RssDBA - extends DatabaseAdminsitrator and adds functionality to parse RSS XMLs and add any links in them to the database
+SpiderDBA - extends DatabaseAdminstrator and adds functionality for a spider
+
+Controller - class for initialising and controling a web crawl
+NewsCrwaler - Crawler object created by Controller which parses a webpage, enters a record into the database and saves an xml of the text locally for parsing later with some algorithm. Ideally the algo would run as the page is initialy retrieved but I need some news to test and develop it on.
+
+RSSController - class for initialising and controlling a "crawler" to read RSS feeds.
+RssCrwaler -  almost a clone of NewsCrawler but with some other functionality.
+
