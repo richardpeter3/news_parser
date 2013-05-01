@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<article>
+  <domain>infinitybeckon.com</domain>
+  <dateRetrieved>2013/04/25 16:53:25</dateRetrieved>
+  <parent>
+    <parentDatabaseID/>
+    <parentUrl>http://www.infinitybeckon.com/FakeNews/bbc4.html</parentUrl>
+  </parent>
+  <content>
+    <headder/>
+    <body>The End FREEDOM! freedom!</body>
+  </content>
+  <metadata>
+    <headderLength>0</headderLength>
+    <bodyLength>28</bodyLength>
+    <nOutgoing>1</nOutgoing>
+    <sentimentIndex>0.0</sentimentIndex>
+  </metadata>
+</article>
